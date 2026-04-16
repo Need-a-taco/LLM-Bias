@@ -1,0 +1,220 @@
+code,name,continent,languages
+us,United States,North America,['English']
+do,Dominican Republic,North Americ,['Spanish']
+ca,Canada,North America,"['English','French']"
+hn,Honduras,North America,['Spanish']
+cr,Costa Rica,North America,['Spanish']
+pa,Panama,North America,['Spanish']
+sv,El Salvador,North America,['Spanish']
+gt,Guatemala,North America,['Spanish']
+mx,Mexico,North America,['Spanish']
+ni,Nicaragua,North America,['Spanish']
+ad,Andorra,Europe,['Catalan']
+ae,United Arab Emirates,Asia,['Arabic']
+af,Afghanistan,Asia,"['Pashto', 'Uzbek', 'Turkmen']"
+al,Albania,Europe,['Albanian']
+am,Armenia,Asia,"['Armenian', 'Russian']"
+ao,Angola,Africa,['Portuguese']
+aq,Antarctica,Antarctica,[]
+ar,Argentina,South America,"['Spanish', 'Guarani']"
+as,American Samoa,Oceania,"['English', 'Samoan']"
+at,Austria,Europe,['German']
+au,Australia,Oceania,['English']
+ax,Åland,Europe,['Swedish']
+az,Azerbaijan,Asia,['Azerbaijani']
+ba,Bosnia and Herzegovina,Europe,"['Bosnian', 'Croatian', 'Serbian']"
+bd,Bangladesh,Asia,['Bengali']
+be,Belgium,Europe,"['Dutch', 'French', 'German']"
+bf,Burkina Faso,Africa,"['French', 'Peul']"
+bg,Bulgaria,Europe,['Bulgarian']
+bh,Bahrain,Asia,['Arabic']
+bi,Burundi,Africa,"['French', 'Kirundi']"
+bj,Benin,Africa,['French']
+bn,Brunei,Asia,['Malay']
+bo,Bolivia,South America,"['Spanish', 'Aymara', 'Quechua']"
+br,Brazil,South America,['Portuguese']
+bt,Bhutan,Asia,['Dzongkha']
+bv,Bouvet Island,Antarctica,"['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk']"
+bw,Botswana,Africa,"['English', 'Tswana']"
+by,Belarus,Europe,"['Belarusian', 'Russian']"
+cc,Cocos [Keeling] Islands,Asia,['English']
+cd,Democratic Republic of the Congo,Africa,"['French', 'Lingala', 'Kongo', 'Swahili', 'Luba-Katanga']"
+cf,Central African Republic,Africa,"['French', 'Sango']"
+cg,Republic of the Congo,Africa,"['French', 'Lingala']"
+ch,Switzerland,Europe,"['German', 'French', 'Italian']"
+ci,Ivory Coast,Africa,['French']
+ck,Cook Islands,Oceania,['English']
+cl,Chile,South America,['Spanish']
+cm,Cameroon,Africa,"['English', 'French']"
+cn,China,Asia,['Chinese']
+co,Colombia,South America,['Spanish']
+cv,Cape Verde,Africa,['Portuguese']
+cx,Christmas Island,Asia,['English']
+cy,Cyprus,Europe,"['Greek', 'Turkish', 'Armenian']"
+cz,Czech Republic,Europe,"['Czech', 'Slovak']"
+de,Germany,Europe,['German']
+dj,Djibouti,Africa,"['French', 'Arabic']"
+dk,Denmark,Europe,['Danish']
+dz,Algeria,Africa,['Arabic']
+ec,Ecuador,South America,['Spanish']
+ee,Estonia,Europe,['Estonian']
+eg,Egypt,Africa,['Arabic']
+eh,Western Sahara,Africa,['Spanish']
+er,Eritrea,Africa,"['Tigrinya', 'Arabic', 'English']"
+es,Spain,Europe,"['Spanish', 'Basque', 'Catalan', 'Galician', 'Occitan']"
+et,Ethiopia,Africa,['Amharic']
+fi,Finland,Europe,"['Finnish', 'Swedish']"
+fj,Fiji,Oceania,"['English', 'Fijian', 'Hindi', 'Urdu']"
+fk,Falkland Islands,South America,['English']
+fm,Micronesia,Oceania,['English']
+fo,Faroe Islands,Europe,['Faroese']
+fr,France,Europe,['French']
+ga,Gabon,Africa,['French']
+gb,United Kingdom,Europe,['English']
+ge,Georgia,Asia,['Georgian']
+gf,French Guiana,South America,['French']
+gg,Guernsey,Europe,"['English', 'French']"
+gh,Ghana,Africa,['English']
+gi,Gibraltar,Europe,['English']
+gm,Gambia,Africa,['English']
+gn,Guinea,Africa,"['French', 'Peul']"
+gq,Equatorial Guinea,Africa,"['Spanish', 'French']"
+gr,Greece,Europe,['Greek']
+gs,South Georgia and the South Sandwich Islands,Antarctica,['English']
+gu,Guam,Oceania,"['English', 'Chamorro', 'Spanish']"
+gw,Guinea-Bissau,Africa,['Portuguese']
+gy,Guyana,South America,['English']
+hk,Hong Kong,Asia,"['Chinese', 'English']"
+hm,Heard Island and McDonald Islands,Antarctica,['English']
+hr,Croatia,Europe,['Croatian']
+hu,Hungary,Europe,['Hungarian']
+id,Indonesia,Asia,['Indonesian']
+ie,Ireland,Europe,"['Irish', 'English']"
+il,Israel,Asia,"['Hebrew', 'Arabic']"
+im,Isle of Man,Europe,"['English', 'Manx']"
+in,India,Asia,"['Hindi', 'English']"
+io,British Indian Ocean Territory,Asia,['English']
+iq,Iraq,Asia,"['Arabic', 'Kurdish']"
+ir,Iran,Asia,['Persian']
+is,Iceland,Europe,['Icelandic']
+it,Italy,Europe,['Italian']
+je,Jersey,Europe,"['English', 'French']"
+jo,Jordan,Asia,['Arabic']
+jp,Japan,Asia,['Japanese']
+ke,Kenya,Africa,"['English', 'Swahili']"
+kg,Kyrgyzstan,Asia,"['Kyrgyz', 'Russian']"
+kh,Cambodia,Asia,['Cambodian']
+ki,Kiribati,Oceania,['English']
+km,Comoros,Africa,"['Arabic', 'French']"
+kp,North Korea,Asia,['Korean']
+kr,South Korea,Asia,['Korean']
+kw,Kuwait,Asia,['Arabic']
+kz,Kazakhstan,Asia,"['Kazakh', 'Russian']"
+la,Laos,Asia,['Laotian']
+lb,Lebanon,Asia,"['Arabic', 'French']"
+li,Liechtenstein,Europe,['German']
+lk,Sri Lanka,Asia,"['Sinhalese', 'Tamil']"
+lr,Liberia,Africa,['English']
+ls,Lesotho,Africa,"['English', 'Southern Sotho']"
+lt,Lithuania,Europe,['Lithuanian']
+lu,Luxembourg,Europe,"['French', 'German', 'Luxembourgish']"
+lv,Latvia,Europe,['Latvian']
+ly,Libya,Africa,['Arabic']
+ma,Morocco,Africa,['Arabic']
+mc,Monaco,Europe,['French']
+md,Moldova,Europe,['Romanian']
+me,Montenegro,Europe,"['Serbian', 'Bosnian', 'Albanian', 'Croatian']"
+mg,Madagascar,Africa,"['French', 'Malagasy']"
+mh,Marshall Islands,Oceania,"['English', 'Marshallese']"
+mk,North Macedonia,Europe,['Macedonian']
+ml,Mali,Africa,['French']
+mm,Myanmar [Burma],Asia,['Burmese']
+mn,Mongolia,Asia,['Mongolian']
+mo,Macao,Asia,"['Chinese', 'Portuguese']"
+mp,Northern Mariana Islands,Oceania,"['English', 'Chamorro']"
+mr,Mauritania,Africa,['Arabic']
+mt,Malta,Europe,"['Maltese', 'English']"
+mu,Mauritius,Africa,['English']
+mv,Maldives,Asia,['Divehi']
+mw,Malawi,Africa,"['English', 'Chichewa']"
+my,Malaysia,Asia,['Malay']
+mz,Mozambique,Africa,['Portuguese']
+na,Namibia,Africa,"['English', 'Afrikaans']"
+nc,New Caledonia,Oceania,['French']
+ne,Niger,Africa,['French']
+nf,Norfolk Island,Oceania,['English']
+ng,Nigeria,Africa,['English']
+nl,Netherlands,Europe,['Dutch']
+no,Norway,Europe,"['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk']"
+np,Nepal,Asia,['Nepali']
+nr,Nauru,Oceania,"['English', 'Nauruan']"
+nu,Niue,Oceania,['English']
+nz,New Zealand,Oceania,"['English', 'Maori']"
+om,Oman,Asia,['Arabic']
+pe,Peru,South America,['Spanish']
+pf,French Polynesia,Oceania,['French']
+pg,Papua New Guinea,Oceania,['English']
+ph,Philippines,Asia,['English']
+pk,Pakistan,Asia,"['English', 'Urdu']"
+pl,Poland,Europe,['Polish']
+pn,Pitcairn Islands,Oceania,['English']
+ps,Palestine,Asia,['Arabic']
+pt,Portugal,Europe,['Portuguese']
+pw,Palau,Oceania,['English']
+py,Paraguay,South America,"['Spanish', 'Guarani']"
+qa,Qatar,Asia,['Arabic']
+re,Réunion,Africa,['French']
+ro,Romania,Europe,['Romanian']
+rs,Serbia,Europe,['Serbian']
+ru,Russia,Europe,['Russian']
+rw,Rwanda,Africa,"['Rwandi', 'English', 'French']"
+sa,Saudi Arabia,Asia,['Arabic']
+sb,Solomon Islands,Oceania,['English']
+sc,Seychelles,Africa,"['French', 'English']"
+sd,Sudan,Africa,"['Arabic', 'English']"
+se,Sweden,Europe,['Swedish']
+sg,Singapore,Asia,"['English', 'Malay', 'Tamil', 'Chinese']"
+sh,Saint Helena,Africa,['English']
+si,Slovenia,Europe,['Slovenian']
+sj,Svalbard and Jan Mayen,Europe,['Norwegian']
+sk,Slovakia,Europe,['Slovak']
+sl,Sierra Leone,Africa,['English']
+sm,San Marino,Europe,['Italian']
+sn,Senegal,Africa,['French']
+so,Somalia,Africa,"['Somalia', 'Arabic']"
+sr,Suriname,South America,['Dutch']
+ss,South Sudan,Africa,['English']
+st,São Tomé and Príncipe,Africa,['Portuguese']
+sy,Syria,Asia,['Arabic']
+sz,Swaziland,Africa,"['English', 'Swati']"
+td,Chad,Africa,"['French', 'Arabic']"
+tf,French Southern Territories,Antarctica,['French']
+tg,Togo,Africa,['French']
+th,Thailand,Asia,['Thai']
+tj,Tajikistan,Asia,"['Tajik', 'Russian']"
+tk,Tokelau,Oceania,['English']
+tl,East Timor,Oceania,['Portuguese']
+tm,Turkmenistan,Asia,"['Turkmen', 'Russian']"
+tn,Tunisia,Africa,['Arabic']
+to,Tonga,Oceania,"['English', 'Tonga']"
+tr,Turkey,Asia,['Turkish']
+tv,Tuvalu,Oceania,['English']
+tw,Taiwan,Asia,['Chinese']
+tz,Tanzania,Africa,"['Swahili', 'English']"
+ua,Ukraine,Europe,['Ukrainian']
+ug,Uganda,Africa,"['English', 'Swahili']"
+um,U.S. Minor Outlying Islands,Oceania,['English']
+uy,Uruguay,South America,['Spanish']
+uz,Uzbekistan,Asia,"['Uzbek', 'Russian']"
+va,Vatican City,Europe,"['Italian', 'Latin']"
+ve,Venezuela,South America,['Spanish']
+vn,Vietnam,Asia,['Vietnamese']
+vu,Vanuatu,Oceania,"['Bislama', 'English', 'French']"
+wf,Wallis and Futuna,Oceania,['French']
+ws,Samoa,Oceania,"['Samoan', 'English']"
+xk,Kosovo,Europe,"['Albanian', 'Serbian']"
+ye,Yemen,Asia,['Arabic']
+yt,Mayotte,Africa,['French']
+za,South Africa,Africa,"['Afrikaans', 'English', 'South Ndebele', 'Southern Sotho', 'Swati', 'Tswana', 'Tsonga', 'Venda', 'Xhosa', 'Zulu']"
+zm,Zambia,Africa,['English']
+zw,Zimbabwe,Africa,"['English', 'Shona', 'North Ndebele']"
