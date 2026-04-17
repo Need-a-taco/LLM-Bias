@@ -1,0 +1,552 @@
+{
+    "English": [
+        "United States",
+        "Canada",
+        "American Samoa",
+        "Australia",
+        "Botswana",
+        "Cocos [Keeling] Islands",
+        "Cook Islands",
+        "Cameroon",
+        "Christmas Island",
+        "Eritrea",
+        "Fiji",
+        "Falkland Islands",
+        "Micronesia",
+        "United Kingdom",
+        "Guernsey",
+        "Ghana",
+        "Gibraltar",
+        "Gambia",
+        "South Georgia and the South Sandwich Islands",
+        "Guam",
+        "Guyana",
+        "Hong Kong",
+        "Heard Island and McDonald Islands",
+        "Ireland",
+        "Isle of Man",
+        "India",
+        "British Indian Ocean Territory",
+        "Jersey",
+        "Kenya",
+        "Kiribati",
+        "Liberia",
+        "Lesotho",
+        "Marshall Islands",
+        "Northern Mariana Islands",
+        "Malta",
+        "Mauritius",
+        "Malawi",
+        "Namibia",
+        "Norfolk Island",
+        "Nigeria",
+        "Nauru",
+        "Niue",
+        "New Zealand",
+        "Papua New Guinea",
+        "Philippines",
+        "Pakistan",
+        "Pitcairn Islands",
+        "Palau",
+        "Rwanda",
+        "Solomon Islands",
+        "Seychelles",
+        "Sudan",
+        "Singapore",
+        "Saint Helena",
+        "Sierra Leone",
+        "South Sudan",
+        "Swaziland",
+        "Tokelau",
+        "Tonga",
+        "Tuvalu",
+        "Tanzania",
+        "Uganda",
+        "U.S. Minor Outlying Islands",
+        "Vanuatu",
+        "Samoa",
+        "South Africa",
+        "Zambia",
+        "Zimbabwe"
+    ],
+    "Spanish": [
+        "Dominican Republic",
+        "Honduras",
+        "Costa Rica",
+        "Panama",
+        "El Salvador",
+        "Guatemala",
+        "Mexico",
+        "Nicaragua",
+        "Argentina",
+        "Bolivia",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Western Sahara",
+        "Spain",
+        "Equatorial Guinea",
+        "Guam",
+        "Peru",
+        "Paraguay",
+        "Uruguay",
+        "Venezuela"
+    ],
+    "French": [
+        "Canada",
+        "Belgium",
+        "Burkina Faso",
+        "Burundi",
+        "Benin",
+        "Democratic Republic of the Congo",
+        "Central African Republic",
+        "Republic of the Congo",
+        "Switzerland",
+        "Ivory Coast",
+        "Cameroon",
+        "Djibouti",
+        "France",
+        "Gabon",
+        "French Guiana",
+        "Guernsey",
+        "Guinea",
+        "Equatorial Guinea",
+        "Jersey",
+        "Comoros",
+        "Lebanon",
+        "Luxembourg",
+        "Monaco",
+        "Madagascar",
+        "Mali",
+        "New Caledonia",
+        "Niger",
+        "French Polynesia",
+        "R\u00e9union",
+        "Rwanda",
+        "Seychelles",
+        "Senegal",
+        "Chad",
+        "French Southern Territories",
+        "Togo",
+        "Vanuatu",
+        "Wallis and Futuna",
+        "Mayotte"
+    ],
+    "Catalan": [
+        "Andorra",
+        "Spain"
+    ],
+    "Arabic": [
+        "United Arab Emirates",
+        "Bahrain",
+        "Djibouti",
+        "Algeria",
+        "Egypt",
+        "Eritrea",
+        "Israel",
+        "Iraq",
+        "Jordan",
+        "Comoros",
+        "Kuwait",
+        "Lebanon",
+        "Libya",
+        "Morocco",
+        "Mauritania",
+        "Oman",
+        "Palestine",
+        "Qatar",
+        "Saudi Arabia",
+        "Sudan",
+        "Somalia",
+        "Syria",
+        "Chad",
+        "Tunisia",
+        "Yemen"
+    ],
+    "Pashto": [
+        "Afghanistan"
+    ],
+    "Uzbek": [
+        "Afghanistan",
+        "Uzbekistan"
+    ],
+    "Turkmen": [
+        "Afghanistan",
+        "Turkmenistan"
+    ],
+    "Albanian": [
+        "Albania",
+        "Montenegro",
+        "Kosovo"
+    ],
+    "Armenian": [
+        "Armenia",
+        "Cyprus"
+    ],
+    "Russian": [
+        "Armenia",
+        "Belarus",
+        "Kyrgyzstan",
+        "Kazakhstan",
+        "Russia",
+        "Tajikistan",
+        "Turkmenistan",
+        "Uzbekistan"
+    ],
+    "Portuguese": [
+        "Angola",
+        "Brazil",
+        "Cape Verde",
+        "Guinea-Bissau",
+        "Macao",
+        "Mozambique",
+        "Portugal",
+        "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "East Timor"
+    ],
+    "Guarani": [
+        "Argentina",
+        "Paraguay"
+    ],
+    "Samoan": [
+        "American Samoa",
+        "Samoa"
+    ],
+    "German": [
+        "Austria",
+        "Belgium",
+        "Switzerland",
+        "Germany",
+        "Liechtenstein",
+        "Luxembourg"
+    ],
+    "Swedish": [
+        "\u00c5land",
+        "Finland",
+        "Sweden"
+    ],
+    "Azerbaijani": [
+        "Azerbaijan"
+    ],
+    "Bosnian": [
+        "Bosnia and Herzegovina",
+        "Montenegro"
+    ],
+    "Croatian": [
+        "Bosnia and Herzegovina",
+        "Croatia",
+        "Montenegro"
+    ],
+    "Serbian": [
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Serbia",
+        "Kosovo"
+    ],
+    "Bengali": [
+        "Bangladesh"
+    ],
+    "Dutch": [
+        "Belgium",
+        "Netherlands",
+        "Suriname"
+    ],
+    "Peul": [
+        "Burkina Faso",
+        "Guinea"
+    ],
+    "Bulgarian": [
+        "Bulgaria"
+    ],
+    "Kirundi": [
+        "Burundi"
+    ],
+    "Malay": [
+        "Brunei",
+        "Malaysia",
+        "Singapore"
+    ],
+    "Aymara": [
+        "Bolivia"
+    ],
+    "Quechua": [
+        "Bolivia"
+    ],
+    "Dzongkha": [
+        "Bhutan"
+    ],
+    "Norwegian": [
+        "Bouvet Island",
+        "Norway",
+        "Svalbard and Jan Mayen"
+    ],
+    "Norwegian Bokm\u00e5l": [
+        "Bouvet Island",
+        "Norway"
+    ],
+    "Norwegian Nynorsk": [
+        "Bouvet Island",
+        "Norway"
+    ],
+    "Tswana": [
+        "Botswana",
+        "South Africa"
+    ],
+    "Belarusian": [
+        "Belarus"
+    ],
+    "Lingala": [
+        "Democratic Republic of the Congo",
+        "Republic of the Congo"
+    ],
+    "Kongo": [
+        "Democratic Republic of the Congo"
+    ],
+    "Swahili": [
+        "Democratic Republic of the Congo",
+        "Kenya",
+        "Tanzania",
+        "Uganda"
+    ],
+    "Luba-Katanga": [
+        "Democratic Republic of the Congo"
+    ],
+    "Sango": [
+        "Central African Republic"
+    ],
+    "Italian": [
+        "Switzerland",
+        "Italy",
+        "San Marino",
+        "Vatican City"
+    ],
+    "Chinese": [
+        "China",
+        "Hong Kong",
+        "Macao",
+        "Singapore",
+        "Taiwan"
+    ],
+    "Greek": [
+        "Cyprus",
+        "Greece"
+    ],
+    "Turkish": [
+        "Cyprus",
+        "Turkey"
+    ],
+    "Czech": [
+        "Czech Republic"
+    ],
+    "Slovak": [
+        "Czech Republic",
+        "Slovakia"
+    ],
+    "Danish": [
+        "Denmark"
+    ],
+    "Estonian": [
+        "Estonia"
+    ],
+    "Tigrinya": [
+        "Eritrea"
+    ],
+    "Basque": [
+        "Spain"
+    ],
+    "Galician": [
+        "Spain"
+    ],
+    "Occitan": [
+        "Spain"
+    ],
+    "Amharic": [
+        "Ethiopia"
+    ],
+    "Finnish": [
+        "Finland"
+    ],
+    "Fijian": [
+        "Fiji"
+    ],
+    "Hindi": [
+        "Fiji",
+        "India"
+    ],
+    "Urdu": [
+        "Fiji",
+        "Pakistan"
+    ],
+    "Faroese": [
+        "Faroe Islands"
+    ],
+    "Georgian": [
+        "Georgia"
+    ],
+    "Chamorro": [
+        "Guam",
+        "Northern Mariana Islands"
+    ],
+    "Hungarian": [
+        "Hungary"
+    ],
+    "Indonesian": [
+        "Indonesia"
+    ],
+    "Irish": [
+        "Ireland"
+    ],
+    "Hebrew": [
+        "Israel"
+    ],
+    "Manx": [
+        "Isle of Man"
+    ],
+    "Kurdish": [
+        "Iraq"
+    ],
+    "Persian": [
+        "Iran"
+    ],
+    "Icelandic": [
+        "Iceland"
+    ],
+    "Japanese": [
+        "Japan"
+    ],
+    "Kyrgyz": [
+        "Kyrgyzstan"
+    ],
+    "Cambodian": [
+        "Cambodia"
+    ],
+    "Korean": [
+        "North Korea",
+        "South Korea"
+    ],
+    "Kazakh": [
+        "Kazakhstan"
+    ],
+    "Laotian": [
+        "Laos"
+    ],
+    "Sinhalese": [
+        "Sri Lanka"
+    ],
+    "Tamil": [
+        "Sri Lanka",
+        "Singapore"
+    ],
+    "Southern Sotho": [
+        "Lesotho",
+        "South Africa"
+    ],
+    "Lithuanian": [
+        "Lithuania"
+    ],
+    "Luxembourgish": [
+        "Luxembourg"
+    ],
+    "Latvian": [
+        "Latvia"
+    ],
+    "Romanian": [
+        "Moldova",
+        "Romania"
+    ],
+    "Malagasy": [
+        "Madagascar"
+    ],
+    "Marshallese": [
+        "Marshall Islands"
+    ],
+    "Macedonian": [
+        "North Macedonia"
+    ],
+    "Burmese": [
+        "Myanmar [Burma]"
+    ],
+    "Mongolian": [
+        "Mongolia"
+    ],
+    "Maltese": [
+        "Malta"
+    ],
+    "Divehi": [
+        "Maldives"
+    ],
+    "Chichewa": [
+        "Malawi"
+    ],
+    "Afrikaans": [
+        "Namibia",
+        "South Africa"
+    ],
+    "Nepali": [
+        "Nepal"
+    ],
+    "Nauruan": [
+        "Nauru"
+    ],
+    "Maori": [
+        "New Zealand"
+    ],
+    "Polish": [
+        "Poland"
+    ],
+    "Rwandi": [
+        "Rwanda"
+    ],
+    "Slovenian": [
+        "Slovenia"
+    ],
+    "Somalia": [
+        "Somalia"
+    ],
+    "Swati": [
+        "Swaziland",
+        "South Africa"
+    ],
+    "Thai": [
+        "Thailand"
+    ],
+    "Tajik": [
+        "Tajikistan"
+    ],
+    "Tonga": [
+        "Tonga"
+    ],
+    "Ukrainian": [
+        "Ukraine"
+    ],
+    "Latin": [
+        "Vatican City"
+    ],
+    "Vietnamese": [
+        "Vietnam"
+    ],
+    "Bislama": [
+        "Vanuatu"
+    ],
+    "South Ndebele": [
+        "South Africa"
+    ],
+    "Tsonga": [
+        "South Africa"
+    ],
+    "Venda": [
+        "South Africa"
+    ],
+    "Xhosa": [
+        "South Africa"
+    ],
+    "Zulu": [
+        "South Africa"
+    ],
+    "Shona": [
+        "Zimbabwe"
+    ],
+    "North Ndebele": [
+        "Zimbabwe"
+    ]
+}
