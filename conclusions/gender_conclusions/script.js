@@ -1,6 +1,14 @@
-// Simple Horizontal Stacked Bar Chart - D3.js (data: gender_conclusions.json)
-
 function buildChart(rawData) {
+  const titleOffset = -470;
+  const titleVerticalOffset = -20; 
+  
+  d3.select("body")
+    .insert("h1", ":first-child")
+    .style("text-align", "center")
+    .style("margin-left", `${titleOffset}px`)
+    .style("margin-bottom", `${titleVerticalOffset}px`)
+    .text("Conclusions of Bias for Gender Groups");
+
   const data = Object.keys(rawData).map((name) => {
     const yes = rawData[name].yes;
     const no = rawData[name].no;
@@ -10,15 +18,16 @@ function buildChart(rawData) {
     return { name, yes, no, total, pYes, pNo };
   });
 
-  const margin = { top: 36, right: 128, bottom: 30, left: 120 };
+  const margin = { top: 36, right: 180, bottom: 30, left: 120 };
   const plotWidth = 650;
   const height = 300 - margin.top - margin.bottom;
   const countX = plotWidth + 12;
+  const fullWidth = margin.left + plotWidth + margin.right;
 
   const svg = d3
     .select("body")
     .append("svg")
-    .attr("width", margin.left + plotWidth + margin.right)
+    .attr("width", fullWidth)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
@@ -87,13 +96,38 @@ function buildChart(rawData) {
     .attr("fill", "#222")
     .text((d) => d.total);
 
-  const legend = svg.append("g").attr("transform", `translate(${plotWidth - 80}, -22)`);
+    const legendOffset = 23; // Adjust this number to move legend up/down
 
-  legend.append("rect").attr("width", 15).attr("height", 15).attr("fill", colors.yes);
-  legend.append("text").attr("x", 20).attr("y", 12).attr("font-size", "12px").text("Yes");
+    const legend = svg.append("g").attr("transform", `translate(${plotWidth + 50}, ${-22 + legendOffset})`);
+    
+    legend
+    .append("rect")
+    .attr("x", 0)
+    .attr("y", 0 + legendOffset)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("fill", colors.yes);
+    
+    legend.append("text")
+      .attr("x", 20)
+      .attr("y", 12 + legendOffset)
+      .attr("font-size", "12px")
+      .text("Yes");
+    
+    legend
+      .append("rect")
+      .attr("y", 20 + legendOffset)
+      .attr("width", 15)
+      .attr("height", 15)
+      .attr("fill", colors.no);
+    
+    legend
+      .append("text")
+      .attr("x", 20)
+      .attr("y", 32 + legendOffset)
+      .attr("font-size", "12px")
+      .text("No");
 
-  legend.append("rect").attr("y", 20).attr("width", 15).attr("height", 15).attr("fill", colors.no);
-  legend.append("text").attr("x", 20).attr("y", 32).attr("font-size", "12px").text("No");
 }
 
 d3.json("gender_conclusions.json")
@@ -105,6 +139,7 @@ d3.json("gender_conclusions.json")
       .style("color", "#c0392b")
       .style("max-width", "40rem")
       .style("font-family", "system-ui, sans-serif")
+      .style("margin", "0 auto")
       .html(
         "Could not load <code>gender_conclusions.json</code>. " +
           "Browsers block loading local JSON when you open this page as a file. " +
