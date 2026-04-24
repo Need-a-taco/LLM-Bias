@@ -1,14 +1,14 @@
 {
     "Female": {
-        "no": 22,
-        "yes": 24
+        "no": 21,
+        "yes": 23
     },
     "Male": {
-        "no": 30,
-        "yes": 14
+        "no": 29,
+        "yes": 13
     },
-    "Other": {
-        "no": 0,
+    "Transgender": {
+        "no": 2,
         "yes": 2
     }
 }
