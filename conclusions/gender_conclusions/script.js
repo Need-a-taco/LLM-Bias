@@ -1,5 +1,5 @@
 function buildChart(rawData) {
-  const titleOffset = -470;
+  const titleOffset = -395;
   const titleVerticalOffset = -20; 
   
   d3.select("body")
@@ -94,11 +94,11 @@ function buildChart(rawData) {
     .attr("dominant-baseline", "middle")
     .attr("font-size", "13px")
     .attr("fill", "#222")
-    .text((d) => d.total);
+    .text((d) => `n=${d.total}`);
 
     const legendOffset = 23; // Adjust this number to move legend up/down
 
-    const legend = svg.append("g").attr("transform", `translate(${plotWidth + 50}, ${-22 + legendOffset})`);
+    const legend = svg.append("g").attr("transform", `translate(${plotWidth + 60}, ${-22 + legendOffset})`);
     
     legend
     .append("rect")

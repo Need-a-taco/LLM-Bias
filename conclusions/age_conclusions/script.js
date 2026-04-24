@@ -1,5 +1,5 @@
 function buildChart(rawData) {
-  const titleOffset = -415;
+  const titleOffset = -450;
   const titleVerticalOffset = -20; 
   
   d3.select("body")
@@ -7,7 +7,7 @@ function buildChart(rawData) {
     .style("text-align", "center")
     .style("margin-left", `${titleOffset}px`)
     .style("margin-bottom", `${titleVerticalOffset}px`)
-    .text("Conclusions of Bias for Racial Groups");
+    .text("Conclusions of Bias for Age Groups");
 
   const data = Object.keys(rawData).map((name) => {
     const yes = rawData[name].yes;
@@ -22,8 +22,8 @@ function buildChart(rawData) {
 
   const margin = { top: 36, right: 180, bottom: 30, left: 120 };
   const plotWidth = 650;
-  const height = 500 - margin.top - margin.bottom;
-  const countX = plotWidth + 10;
+  const height = 300 - margin.top - margin.bottom;
+  const countX = plotWidth + 12;
   const fullWidth = margin.left + plotWidth + margin.right;
 
   const svg = d3
@@ -79,8 +79,8 @@ function buildChart(rawData) {
 
   svg
     .append("text")
-    .attr("x", 680)
-    .attr("y", 2)
+    .attr("x", countX)
+    .attr("y", 10)
     .attr("font-size", "11px")
     .attr("fill", "#333")
     .text("No. of Times Studied");
@@ -98,9 +98,9 @@ function buildChart(rawData) {
     .attr("fill", "#222")
     .text((d) => `n=${d.total}`);
 
-    const legendOffset = 18; // Adjust this number to move legend up/down
+    const legendOffset = 23; // Adjust this number to move legend up/down
 
-    const legend = svg.append("g").attr("transform", `translate(${plotWidth + 65}, ${-22 + legendOffset})`);
+    const legend = svg.append("g").attr("transform", `translate(${plotWidth + 60}, ${-22 + legendOffset})`);
     
     legend
     .append("rect")
@@ -132,7 +132,7 @@ function buildChart(rawData) {
 
 }
 
-d3.json("racial_conclusions.json")
+d3.json("age_conclusions.json")
   .then(buildChart)
   .catch((err) => {
     console.error(err);
@@ -143,7 +143,7 @@ d3.json("racial_conclusions.json")
       .style("font-family", "system-ui, sans-serif")
       .style("margin", "0 auto")
       .html(
-        "Could not load <code>racial_conclusions.json</code>. " +
+        "Could not load <code>age_conclusions.json</code>. " +
           "Browsers block loading local JSON when you open this page as a file. " +
           "From this folder, run a local server (e.g. <code>python -m http.server</code>) " +
           "and open the page at <code>http://localhost:8000/</code>."

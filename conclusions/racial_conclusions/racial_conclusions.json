@@ -1,0 +1,26 @@
+{
+    "Asian": {
+        "no": 11,
+        "yes": 16
+    },
+    "Black": {
+        "no": 13,
+        "yes": 21
+    },
+    "Hispanic": {
+        "no": 12,
+        "yes": 8
+    },
+    "Native American": {
+        "no": 4,
+        "yes": 5
+    },
+    "Pacific Islander": {
+        "no": 1,
+        "yes": 1
+    },
+    "White": {
+        "no": 23,
+        "yes": 8
+    }
+}

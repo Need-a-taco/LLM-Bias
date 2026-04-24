@@ -1,0 +1,18 @@
+{
+    "Children": {
+        "no": 2,
+        "yes": 5
+    },
+    "Elderly": {
+        "no": 5,
+        "yes": 8
+    },
+    "Middle Aged": {
+        "no": 10,
+        "yes": 4
+    },
+    "Young Adult": {
+        "no": 3,
+        "yes": 3
+    }
+}

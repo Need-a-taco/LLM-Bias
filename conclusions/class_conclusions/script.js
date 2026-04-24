@@ -1,5 +1,5 @@
 function buildChart(rawData) {
-  const titleOffset = -415;
+  const titleOffset = -175;
   const titleVerticalOffset = -20; 
   
   d3.select("body")
@@ -7,7 +7,7 @@ function buildChart(rawData) {
     .style("text-align", "center")
     .style("margin-left", `${titleOffset}px`)
     .style("margin-bottom", `${titleVerticalOffset}px`)
-    .text("Conclusions of Bias for Racial Groups");
+    .text("Conclusions of Bias for with Different Markers of Class");
 
   const data = Object.keys(rawData).map((name) => {
     const yes = rawData[name].yes;
@@ -132,7 +132,7 @@ function buildChart(rawData) {
 
 }
 
-d3.json("racial_conclusions.json")
+d3.json("class_conclusions.json")
   .then(buildChart)
   .catch((err) => {
     console.error(err);
@@ -143,7 +143,7 @@ d3.json("racial_conclusions.json")
       .style("font-family", "system-ui, sans-serif")
       .style("margin", "0 auto")
       .html(
-        "Could not load <code>racial_conclusions.json</code>. " +
+        "Could not load <code>class_conclusions.json</code>. " +
           "Browsers block loading local JSON when you open this page as a file. " +
           "From this folder, run a local server (e.g. <code>python -m http.server</code>) " +
           "and open the page at <code>http://localhost:8000/</code>."

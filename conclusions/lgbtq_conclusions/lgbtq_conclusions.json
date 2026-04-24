@@ -1,0 +1,18 @@
+{
+    "Bisexual": {
+        "no": 1,
+        "yes": 1
+    },
+    "Gay or Lesbian": {
+        "no": 2,
+        "yes": 1
+    },
+    "Heterosexual": {
+        "no": 1,
+        "yes": 2
+    },
+    "Transgender": {
+        "no": 2,
+        "yes": 4
+    }
+}

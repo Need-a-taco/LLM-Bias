@@ -1,0 +1,46 @@
+{
+    "High Education": {
+        "no": 1,
+        "yes": 0
+    },
+    "High Income": {
+        "no": 6,
+        "yes": 1
+    },
+    "Homeless": {
+        "no": 1,
+        "yes": 3
+    },
+    "Housed": {
+        "no": 1,
+        "yes": 0
+    },
+    "Insured": {
+        "no": 3,
+        "yes": 1
+    },
+    "Low Education": {
+        "no": 0,
+        "yes": 1
+    },
+    "Low Income": {
+        "no": 3,
+        "yes": 4
+    },
+    "Middle Income": {
+        "no": 3,
+        "yes": 0
+    },
+    "Retired": {
+        "no": 1,
+        "yes": 0
+    },
+    "Unemployed": {
+        "no": 1,
+        "yes": 1
+    },
+    "Uninsured": {
+        "no": 0,
+        "yes": 1
+    }
+}
