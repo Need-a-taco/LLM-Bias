@@ -43,6 +43,7 @@ def render_stacked_horizontal(
     dpi: int = 150,
     sort_by: str = "p_yes",
     category_order: list[str] | None = None,
+    y_tick_pad: float | None = None,
 ) -> None:
     df = load_conclusions_json(json_path)
     if category_order is not None:
@@ -84,6 +85,8 @@ def render_stacked_horizontal(
 
     ax.set_yticks(y)
     ax.set_yticklabels(df["group"])
+    if y_tick_pad is not None:
+        ax.tick_params(axis="y", which="major", pad=y_tick_pad)
     ax.invert_yaxis()
     ax.set_xlim(0, 1)
     ax.set_xlabel("Percentages of Studies", labelpad=8)
