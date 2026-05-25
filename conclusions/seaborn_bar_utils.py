@@ -11,6 +11,15 @@ import pandas as pd
 import seaborn as sns
 
 
+# Font sizes are kept consistent with the companion distribution charts so the
+# two visualizations in each row of the conclusions figure look uniform.
+_AXIS_TITLE_FS = 24
+_Y_TICK_FS = 22
+_LEGEND_FS = 16
+_N_LABEL_FS = 20
+_SEGMENT_LABEL_FS = 22
+
+
 def load_conclusions_json(path: Path) -> pd.DataFrame:
     with open(path, encoding="utf-8") as f:
         raw = json.load(f)
@@ -41,7 +50,7 @@ def render_stacked_horizontal(
     color_found: str = "#d62728",
     color_not: str = "#2ca02c",
     dpi: int = 150,
-    sort_by: str = "p_yes",
+    sort_by: str = "total",
     category_order: list[str] | None = None,
     y_tick_pad: float | None = None,
 ) -> None:
@@ -49,26 +58,37 @@ def render_stacked_horizontal(
     if category_order is not None:
         order_map = {name: i for i, name in enumerate(category_order)}
         df["_ord"] = df["group"].map(lambda g: order_map.get(g, len(category_order)))
-        df = df.sort_values(["_ord", "group"]).drop(columns=["_ord"]).reset_index(
+        df = (
+            df.sort_values(["_ord", "group"]).drop(columns=["_ord"]).reset_index(drop=True)
+        )
+    elif sort_by == "p_yes":
+        df = df.sort_values(["p_yes", "group"], ascending=[False, True]).reset_index(
             drop=True
         )
-    elif sort_by == "total":
-        df = df.sort_values("total", ascending=False).reset_index(drop=True)
     else:
-        df = df.sort_values("p_yes", ascending=False).reset_index(drop=True)
+        # Default matches the distribution chart's frequency ordering
+        # (count desc, then name asc as tiebreaker).
+        df = df.sort_values(["total", "group"], ascending=[False, True]).reset_index(
+            drop=True
+        )
 
     sns.set_theme(style="whitegrid", context="notebook")
-    fig_h = max(3.0, 0.5 * len(df))
-    fig, ax = plt.subplots(figsize=(10, fig_h))
+    # Per-row height is generous enough that the segment-count labels (22pt)
+    # have comfortable vertical padding inside each bar even on tall charts
+    # like Class (11 rows).
+    fig_h = max(5.0, 0.95 * len(df))
+    fig, ax = plt.subplots(figsize=(12, fig_h))
 
     y = list(range(len(df)))
     label_found = "Found bias against group"
     label_not = "Did not find bias against group"
 
+    bar_height = 0.8
+
     ax.barh(
         y,
         df["p_yes"],
-        height=0.62,
+        height=bar_height,
         color=color_found,
         label=label_found,
         zorder=2,
@@ -76,20 +96,49 @@ def render_stacked_horizontal(
     ax.barh(
         y,
         df["p_no"],
-        height=0.62,
+        height=bar_height,
         left=df["p_yes"],
         color=color_not,
         label=label_not,
         zorder=2,
     )
 
+    # White count labels centered inside each red / green segment.
+    for i, row in df.iterrows():
+        yes = int(row["yes"])
+        no = int(row["no"])
+        p_yes = float(row["p_yes"])
+        p_no = float(row["p_no"])
+        if yes > 0:
+            ax.text(
+                p_yes / 2.0,
+                i,
+                f"{yes}",
+                va="center",
+                ha="center",
+                fontsize=_SEGMENT_LABEL_FS,
+                color="white",
+                zorder=3,
+            )
+        if no > 0:
+            ax.text(
+                p_yes + p_no / 2.0,
+                i,
+                f"{no}",
+                va="center",
+                ha="center",
+                fontsize=_SEGMENT_LABEL_FS,
+                color="white",
+                zorder=3,
+            )
+
     ax.set_yticks(y)
-    ax.set_yticklabels(df["group"])
+    ax.set_yticklabels(df["group"], fontsize=_Y_TICK_FS)
     if y_tick_pad is not None:
         ax.tick_params(axis="y", which="major", pad=y_tick_pad)
     ax.invert_yaxis()
     ax.set_xlim(0, 1)
-    ax.set_xlabel("Percentages of Studies", labelpad=8)
+    ax.set_xlabel("Percentages of Studies", labelpad=10, fontsize=_AXIS_TITLE_FS)
     ax.tick_params(axis="x", which="both", bottom=False, top=False, labelbottom=False)
     ax.spines["bottom"].set_visible(False)
 
@@ -102,7 +151,7 @@ def render_stacked_horizontal(
             f"n={int(total)}",
             va="center",
             ha="left",
-            fontsize=10,
+            fontsize=_N_LABEL_FS,
             color="#222",
             transform=trans_n,
             clip_on=False,
@@ -114,7 +163,7 @@ def render_stacked_horizontal(
         bbox_to_anchor=(0.5, 1.02),
         ncol=2,
         frameon=True,
-        fontsize=9,
+        fontsize=_LEGEND_FS,
         columnspacing=1.2,
     )
     ax.grid(False, axis="x")
