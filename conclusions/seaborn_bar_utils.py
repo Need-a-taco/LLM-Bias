@@ -1,4 +1,4 @@
-"""Stacked horizontal bar charts for conclusions JSON (shared by each */v3/plot.py)."""
+"""Stacked horizontal bar charts for conclusions JSON (shared by each */imgs/plot.py)."""
 
 from __future__ import annotations
 
